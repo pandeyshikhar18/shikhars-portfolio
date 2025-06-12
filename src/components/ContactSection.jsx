@@ -16,8 +16,6 @@ export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-
     setIsSubmitting(true);
 
     setTimeout(() => {
@@ -85,14 +83,18 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <span className="text-muted-foreground">Nagpur, Maharashtra</span>
+                  <span className="text-muted-foreground">
+                    Nagpur, Maharashtra
+                  </span>
                 </div>
               </div>
             </div>
 
             {/* === Socials === */}
             <div className="pt-8">
-              <h4 className="font-medium mb-4 text-left md:text-center">Connect With Me</h4>
+              <h4 className="font-medium mb-4 text-left md:text-center">
+                Connect With Me
+              </h4>
               <div className="flex space-x-4 justify-center">
                 <a
                   href="https://www.linkedin.com/in/shikhar-pandey-a54442222/"
@@ -127,77 +129,69 @@ export const ContactSection = () => {
           </div>
 
           {/* === Contact Form === */}
-          <div
-            className="bg-card p-8 rounded-lg shadow-xs"
+          <form
+            className="bg-card p-8 rounded-lg shadow-xs space-y-6"
+            action="https://formspree.io/f/xvgravyo"
+            method="POST"
             onSubmit={handleSubmit}
           >
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
 
-            <form className="space-y-6">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium mb-2"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="Name"
-                />
-              </div>
+            <div>
+              <label htmlFor="name" className="block text-sm font-medium mb-2">
+                Your Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                placeholder="Name"
+              />
+            </div>
 
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium mb-2"
-                >
-                  Your Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="you@example.com"
-                />
-              </div>
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium mb-2">
+                Your Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                placeholder="you@example.com"
+              />
+            </div>
 
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium mb-2"
-                >
-                  Your Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
-                  placeholder="Hello, I'd like to talk about..."
-                />
-              </div>
+            <div>
+              <label htmlFor="message" className="block text-sm font-medium mb-2">
+                Your Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                placeholder="Hello, I'd like to talk about..."
+              />
+            </div>
 
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className={cn(
-                  "cosmic-button w-full flex items-center justify-center gap-2"
-                )}
-              >
-                {isSubmitting ? "Sending..." : "Send Message"}
-                <Send size={16} />
-              </button>
-            </form>
-          </div>
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className={cn(
+                "cosmic-button w-full flex items-center justify-center gap-2"
+              )}
+            >
+              {isSubmitting ? "Sending..." : "Send Message"}
+              <Send size={16} />
+            </button>
+          </form>
         </div>
       </div>
     </section>
   );
 };
+
