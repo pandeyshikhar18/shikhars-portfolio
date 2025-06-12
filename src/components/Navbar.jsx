@@ -19,7 +19,7 @@ export const Navbar = () => {
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") || "light";
     setTheme(savedTheme);
-    document.body.className = savedTheme;
+    document.documentElement.classList.add(savedTheme);
 
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
@@ -33,7 +33,8 @@ export const Navbar = () => {
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
-    document.body.className = newTheme;
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(newTheme);
     localStorage.setItem("theme", newTheme);
   };
 
@@ -106,16 +107,10 @@ export const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            {/* === Theme Toggle in Mobile View === */}
-            <button
-              onClick={toggleTheme}
-              className="mt-6 text-foreground hover:text-primary transition"
-            >
-              {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
-            </button>
           </div>
         </div>
       </div>
     </nav>
   );
 };
+
