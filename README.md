@@ -1,12 +1,83 @@
-# React + Vite
+# 💼 Shikhar Pandey's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a developer, designed to reflect my passion for technology, UI/UX design, and problem-solving.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Interactive, responsive front-end design
+- 📄 Projects section with live links and GitHub repositories
+- 📬 Contact form or social links for easy communication
+- 🌐 Fully deployed and accessible online
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: HTML, CSS, JavaScript, React (optional)
+- **Styling**: Tailwind CSS / CSS Modules / SCSS
+- **Version Control**: Git & GitHub
+- **Deployment**: Vercel / Netlify / GitHub Pages
+
+## 📸 Preview
+
+_Add screenshots or a GIF of your portfolio here_
+
+## 📂 Folder Structure
+
+/portfolio
+├── /public
+├── /src
+│ ├── /components
+│ ├── /assets
+│ ├── App.jsx
+│ └── index.js
+├── package.json
+└── README.md
+
+markdown
+Copy
+Edit
+
+## 🧠 About Me
+
+I'm **Shikhar Pandey**, a B.Tech CSE student at KIIT Bhubaneswar. I’m enthusiastic about web development, machine learning, and building meaningful solutions. My interests also include:
+
+- 🌱 Research in ML/AI
+- 🧠 Problem Solving (DSA)
+- 💡 Hackathon Projects
+- 📱 UI/UX Design
+
+## 🔗 Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/shikhar-pandey-a54442222/)
+- [GitHub](https://github.com/pandeyshikhar18)
+- Email: _your_email_here_
+
+## 📌 Deployment
+
+The live site is hosted at: _[your live link]_  
+To run locally:
+
+```bash
+git clone https://github.com/pandeyshikhar18/shikhars-portfolio.git
+cd shikhars-portfolio
+npm install
+npm run dev
+📃 License
+This project is licensed under the MIT License.
+
+Thank you for visiting my portfolio! 😊
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you'd like to include badges (e.g., GitHub stars, deployment status), analytics (e.g., Google Analytics), or a personalized introduction video/GIF.
+
+
+
+
+
+
+
+
