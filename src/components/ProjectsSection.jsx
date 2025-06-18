@@ -26,11 +26,11 @@ const projects = [
   title: "Cursor AI",
   description:
     "Desktop AI-powered code assistant built with Electron and React, integrated with GPT-3.5 Turbo via OpenRouter API.",
-  image: "/projects/project3.png",  // Update this if you have a specific Cursor AI image
+  image: "/projects/Screenshot 2025-06-18 130915.png",  
   tags: ["React", "Electron", "TypeScript", "OpenRouter API"],
-  demoUrl: "https://cursor-ai-eosin.vercel.app/",  // Frontend deployed on Vercel
+  demoUrl: "https://cursor-ai-eosin.vercel.app/", 
   githubUrl: "https://github.com/pandeyshikhar18/cursor-ai",
-}
+},
 
 ];
 
