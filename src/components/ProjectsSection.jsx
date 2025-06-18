@@ -21,16 +21,17 @@ const projects = [
     demoUrl: "https://huggingface.co/spaces/pandeyshikhar/Crop_Diseas_Prediction", // Replace with your live demo if available
     githubUrl: "https://github.com/pandeyshikhar18/Crop-Disease-Prediction",
   },
-  {
-    id: 3,
-    title: "Movie Recommendation System",
-    description:
-      "A content-based movie recommender that suggests films based on user preferences and similarity scores.",
-    image: "/projects/project3.png",
-    tags: ["Python", "Pandas", "Sklearn", "Recommender System"],
-    demoUrl: "https://github.com/pandeyshikhar18/Movie-Recommendation-System", // Add a Streamlit demo URL if available
-    githubUrl: "https://github.com/pandeyshikhar18/Movie-Recommendation-System", // Replace with GitHub repo URL if public
-  },
+ {
+  id: 3,
+  title: "Cursor AI",
+  description:
+    "Desktop AI-powered code assistant built with Electron and React, integrated with GPT-3.5 Turbo via OpenRouter API.",
+  image: "/projects/project3.png",  // Update this if you have a specific Cursor AI image
+  tags: ["React", "Electron", "TypeScript", "OpenRouter API"],
+  demoUrl: "https://cursor-ai-eosin.vercel.app/",  // Frontend deployed on Vercel
+  githubUrl: "https://github.com/pandeyshikhar18/cursor-ai",
+}
+
 ];
 
 export const ProjectsSection = () => {
