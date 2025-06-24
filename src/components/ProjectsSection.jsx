@@ -21,15 +21,15 @@ const projects = [
     demoUrl: "https://huggingface.co/spaces/pandeyshikhar/Crop_Diseas_Prediction", // Replace with your live demo if available
     githubUrl: "https://github.com/pandeyshikhar18/Crop-Disease-Prediction",
   },
- {
+{
   id: 3,
-  title: "Cursor AI",
+  title: "CodAIED",
   description:
-    "Desktop AI-powered code assistant built with Electron and React, integrated with GPT-3.5 Turbo via OpenRouter API.",
-  image: "/projects/Screenshot 2025-06-18 130915.png",  
-  tags: ["React", "Electron", "TypeScript", "OpenRouter API"],
-  demoUrl: "https://cursor-ai-eosin.vercel.app/", 
-  githubUrl: "https://github.com/pandeyshikhar18/cursor-ai",
+    "Web-based AI-powered code editor built with React and Monaco, featuring GPT-3.5 Turbo via OpenRouter and voice-to-code integration.",
+  image: "/projects/screenshot.png",  // Update this path if needed
+  tags: ["React", "TypeScript", "Vite", "Monaco", "OpenRouter", "Voice AI"],
+  demoUrl: "https://ai-code-editor-pi.vercel.app/",
+  githubUrl: "https://github.com/pandeyshikhar18/ai-code-editor"
 },
 
 ];
