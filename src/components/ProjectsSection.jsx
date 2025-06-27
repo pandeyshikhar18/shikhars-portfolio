@@ -25,12 +25,13 @@ const projects = [
   id: 3,
   title: "CodAIED",
   description:
-    "Web-based AI-powered code editor built with React and Monaco, featuring GPT-3.5 Turbo via OpenRouter and voice-to-code integration.",
-  image: "/projects/screenshot.png",  // Update this path if needed
-  tags: ["React", "TypeScript", "Vite", "Monaco", "OpenRouter", "Voice AI"],
-  demoUrl: "https://ai-code-editor-pi.vercel.app/",
-  githubUrl: "https://github.com/pandeyshikhar18/ai-code-editor"
+    "AI-powered web code editor built with React, Monaco, and Cohere AI. Supports JavaScript execution, voice-to-code, and chat assistance. Initially deployed via Vercel, now also available on GitHub Pages.",
+  image: "/projects/screenshot.png",  // Make sure this image exists in public/projects/
+  tags: ["React", "TypeScript", "Vite", "Monaco", "Cohere AI", "Voice Recognition"],
+  demoUrl: "https://pandeyshikhar18.github.io/codedai-aicodeeditor/",
+  githubUrl: "https://github.com/pandeyshikhar18/codedai-aicodeeditor"
 },
+
 
 ];
 
