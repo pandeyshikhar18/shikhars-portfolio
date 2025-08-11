@@ -49,7 +49,7 @@ I'm **Shikhar Pandey**, a B.Tech CSE student at KIIT Bhubaneswar. I’m enthusia
 
 - [LinkedIn](https://www.linkedin.com/in/shikhar-pandey-a54442222/)
 - [GitHub](https://github.com/pandeyshikhar18)
-- Email: _your_email_here_
+- Email: pandeyshikhar07@gmail.com
 
 ## 📌 Deployment
 
